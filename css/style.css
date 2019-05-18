@@ -1,0 +1,252 @@
+body{
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+body{
+	background-image: url(../img/bg.png);
+	background-size: cover;
+}
+.ba-header{
+	display: flex;
+	align-items: center;
+
+}
+.ba-container{
+	width: 750px;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 40px;
+	margin-bottom: 25px;
+}
+nav{
+	margin: auto 0;
+}
+
+.logo{
+	height: 15px;
+    margin: auto 0;
+	width: 40px;
+}
+.menu{
+	display: flex;
+	list-style: none;
+    text-transform: uppercase;
+    margin: auto 0;   
+}
+.menu_item{
+	overflow: hidden;
+}
+.menu_link{
+	text-decoration: none;
+    line-height: 2.224;
+    color: #fff;
+    margin: 0 18px;
+    font-family: 'Roboto', sans;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.form-menu {
+    height: 18px;
+    width: 25px;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: auto 0;
+    padding: 0;
+    }
+.main{
+	display: flex;
+    justify-content: center;
+    width: 751px;
+    margin: 0 auto;
+}
+.form-menu span{
+	display: block;
+    height: 1px;
+    background-color: #FFF;
+    margin-bottom: 5px;
+}
+.product{
+	width: 506px;
+	height: 431px;
+	background-image: url("../img/_Group_.png");
+	position: relative;
+}
+.product_nike{
+	position: absolute;
+	left: 36px;
+	top: 50px;
+}
+
+.product_img{
+	position: absolute;
+	left: 177px;
+	top: 370px;
+}
+.product_img > img{
+	margin-right: 10px;
+}
+.about{
+	width: 250px;
+    height: 431px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+.new{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.929;
+  background-color: rgb(255, 166, 13);
+  width: 42px;
+  height: 24px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.run{
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.125;
+  width: 200px;
+  margin: 0;
+}
+span{
+	color: #5e4fff;
+}
+.hua{
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 2.25;
+  font-weight: 600;
+}
+.price{
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.227;
+}
+.size{
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 2.25;
+  font-weight: 600;
+  margin: 0;
+}
+.size_item{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.size_item > li{
+	display: inline;
+	margin-right: 26px;
+	font-size: 14.567px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+	font-weight: 600;
+	line-height: 1.854;
+}
+.check{
+	border: .5px solid #000;
+	background-image: url("../img/Прямоугольник 4.png");
+}
+.add{
+	width: 120px;
+	height: 30px;
+	background-color: #a200b8;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2.25;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 5px;
+}
+.wish{
+	width: 120px;
+	height: 30px;
+	background-color: #fff;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: #000;
+    line-height: 2.25;
+    text-transform: uppercase;
+    border: 1px solid #000;
+}
+.main{
+	-webkit-box-shadow: 30px -2px 0px -14px rgba(255,255,255,0.3), -30px -2px 0px -14px rgba(255,255,255,0.3);
+}
+.btn-plus{
+    border: none;
+    padding-top: 330px;
+    padding-left: 450px;
+    background-color: transparent;
+}
+.plus{
+	height: 30px;
+    width: 30px;
+    margin: 5px 0;
+}
+.close {
+width: 25px;
+height: 25px;
+float: right;
+margin: 5px;
+}
